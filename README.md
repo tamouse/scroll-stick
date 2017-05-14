@@ -8,9 +8,9 @@ when the user scrolls or navigates past it.
 Contributions welcome! Please abide by
 the [Contributor Covenant](ContributorCovenant.txt).
 
-* Please leave issues at <>.
-* Pull requests accepted! Submit at <>. Please include tests.
-* Add to the project [wiki]() if you'd like to.
+* Please leave issues at <https://github.com/tamouse/scroll-stick/issues>.
+* Pull requests accepted! Submit at <https://github.com/tamouse/scroll-stick/pulls>. Please include tests.
+* Add to the project [wiki](https://github.com/tamouse/scroll-stick/wiki) if you'd like to.
 
 ## License
 
