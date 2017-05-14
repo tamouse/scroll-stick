@@ -3,6 +3,11 @@
 A JavaScript Module to get a header to stick to the top of the screen
 when the user scrolls or navigates past it.
 
+## Demo
+
+<https://tamouse.github.io/scroll-stick/>
+
+
 ## Contributing
 
 Contributions welcome! Please abide by
