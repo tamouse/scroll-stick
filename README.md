@@ -7,6 +7,35 @@ when the user scrolls or navigates past it.
 
 <https://tamouse.github.io/scroll-stick/>
 
+## Installation
+
+Download from Github and put whereever you want in your project.
+
+```bash
+$ cd <PROJECT ROOT>
+$ mkdir -p js/vendor/
+$ cd js/vendor
+$ curl -o scroll-stick.zip https://github.com/tamouse/scroll-stick/archive/master.zip
+$ unzip scroll-stick.zip
+$ mv scroll-stick-master scroll-stick
+```
+
+## Usage
+
+Create a header to stick:
+
+```html
+<header id="sticky">
+  <!-- header content -->
+</header
+```
+
+Load the script and initialize it with the sticky header:
+
+```html
+<script src="js/vendor/scroll-stick/index.js"></script>
+<script>StickyScroll.init('#sticky');</script>
+```
 ## Discussion
 
 I like the way sticky headers work on various web sites I've
