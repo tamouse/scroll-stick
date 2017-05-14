@@ -4,5 +4,6 @@
   "description": "Make a header stick to the top of the page when you scroll past",
   "repository": "https://github.com/tamouse/scroll-stick",
   "author": "Tamara Temple <tamouse@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js"
 }
