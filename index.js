@@ -2,6 +2,8 @@
  * StickyScroll: a JavaScript module to stick a header when scrolled past
  * Author: Tamara Temple <tamouse@gmail.com>
  * Github: https://github.com/tamouse/sticky-scroll
+ * Copyright: 2017 Tamara Temple Web Development
+ * License: MIT <https://opensource.org/licenses/MIT>
  */
 
 const StickyScroll = (function () {
