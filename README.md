@@ -34,7 +34,7 @@ Load the script and initialize it with the sticky header:
 
 ```html
 <script src="js/vendor/scroll-stick/index.js"></script>
-<script>StickyScroll.init('#sticky');</script>
+<script>ScrollStick.init('#sticky');</script>
 ```
 ## Discussion
 

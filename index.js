@@ -6,7 +6,7 @@
  * License: MIT <https://opensource.org/licenses/MIT>
  */
 
-const StickyScroll = (function () {
+const ScrollStick = (function () {
   var self = {
     init: function(target) {
       self.targetEl = document.querySelector(target);
@@ -44,3 +44,7 @@ const StickyScroll = (function () {
 
   return self;
 })();
+
+if (typeof exports !== 'undefined') {
+  exports.ScrollStick = ScrollStick;
+}
