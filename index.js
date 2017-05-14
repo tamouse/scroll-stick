@@ -2,8 +2,6 @@
  * StickyScroll: a JavaScript module to stick a header when scrolled past
  * Author: Tamara Temple <tamouse@gmail.com>
  * Github: https://github.com/tamouse/sticky-scroll
- *
- * See: https://jsfiddle.net/tamouse/m74nx2e5/
  */
 
 const StickyScroll = (function () {
@@ -17,28 +15,21 @@ const StickyScroll = (function () {
     },
     cloneTarget: function(tgt) {
       var cln = tgt.cloneNode(true);
-      if (tgt.id) {
-        cln.id = tgt.id + '-sticky-clone';
-      } else {
-        cln.id = 'sticky-clone';
-      }
-      // hide the clone
-      //cln.style.visibility = 'hidden';
-      cln.style.display = 'none';
+      cln.id = '';
       cln.style.top = 0;
       cln.style.width = tgt.offsetWidth + "px";
-      // attach to document right after tgt
+      cln.style.position = 'fixed';
+
+      // hide the clone at the start
+      cln.style.display = 'none';
+      // attach to document right after tgt. See: https://jsfiddle.net/tamouse/m74nx2e5/
       tgt.parentNode.insertBefore(cln, tgt.nextSibling);
       return cln;
     },
     updateScroll: function () {
       if (document.body.scrollTop > self.fromTop ) {
-        self.stickyEl.style.position = 'fixed';
-        //self.stickyEl.style.visibility = 'visible';
         self.stickyEl.style.display = self.targetEl.style.display;
       } else {
-        self.stickyEl.style.position = 'static';
-        //self.stickyEl.style.visibility = 'hidden';
         self.stickyEl.style.display = 'none';
       }
     },
@@ -47,7 +38,6 @@ const StickyScroll = (function () {
       var rect = el.getBoundingClientRect();
       return rect.top + window.scrollY;
     }
-
   };
 
   return self;
