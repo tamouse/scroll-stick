@@ -14,7 +14,7 @@ the [Contributor Covenant](ContributorCovenant.txt).
 
 ## License
 
-This work is licensed with the MIT license. See [LICENSE.txt](LICENSED.txt)
+This work is licensed with the MIT license. See [LICENSE.txt](LICENSE.txt)
 
 ## Inspriation:
 
